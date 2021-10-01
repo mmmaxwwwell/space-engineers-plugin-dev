@@ -1,0 +1,7 @@
+version: '3'
+services:
+  plugin-builder:
+    build: .
+    container_name: plugin-builder
+    volumes: 
+      - ./DedicatedServerPlugin:/plugin/DedicatedServerPlugin
