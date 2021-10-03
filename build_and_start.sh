@@ -17,6 +17,8 @@ cd ../space-engineers-dedicated-docker-linux
 sudo docker-compose down 
 rm -rf ./appdata/space-engineers/config/Plugins/* 
 cp ../plugin-builder/DedicatedServerPlugin/DedicatedServerPluginTest/bin/x64/Release/DedicatedServerPluginTest.dll ./appdata/space-engineers/config/Plugins/ 
+
+
 ./start 
 sudo docker-compose down
 sudo rm -rf ./plugin-builder/DedicatedServerPluginTest/{bin,obj}
